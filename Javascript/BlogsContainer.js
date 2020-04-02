@@ -1,5 +1,5 @@
 
-var fruits = ["This is my first blog in this year-2020  ", "Orange", "Apple", "Mango", "Lemon", "cherry"];
+var fruits = ["This is my first blog in this year-2020  ", "Orange", "Apple", "Mango", "Lemon", "cherry","Dates"];
 var noOfRows = fruits.length / 3;
 var k = 0;
 
@@ -20,7 +20,7 @@ for (var i = 0; i < noOfRows; i++) {
         divForCol.className = "col-sm-4";
 
         var aTagForBlog = document.createElement('a');
-        aTagForBlog.setAttribute('href', 'https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_w3schools');
+        aTagForBlog.setAttribute('href', '../Html/blog.html');
 
         var divBlogImage = document.createElement('div');
         divBlogImage.className = "blog-image";
@@ -72,7 +72,6 @@ for (var i = 0; i < noOfRows; i++) {
         var divForDateAndReadTime = document.createElement('div');
         divForDateAndReadTime.className="div-for-date-read";
 
-
         var dateOfPublish = document.createElement('h6');
         var dateTextNode = document.createTextNode("Mar 29");
         dateOfPublish.appendChild(dateTextNode);
@@ -96,13 +95,9 @@ for (var i = 0; i < noOfRows; i++) {
         divForAuthDet.appendChild(divForDateAndReadTime);
         divForInsights.appendChild(divForAuthDet);
 
-
-
         divForCol.appendChild(aTagForTitleDiv);
         divForCol.appendChild(divForInsights);
         divRow.appendChild(divForCol);
-
-      
 
         k++;
         if (k == fruits.length) {
