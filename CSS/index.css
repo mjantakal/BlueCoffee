@@ -1,6 +1,5 @@
 body{
     font-family:monospace;
-
 }
 .header-top{
     text-align: center;
@@ -78,9 +77,8 @@ body{
 }
 /* content style for js file */
 .row{
-    width: 100%;
     margin-bottom: 70px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
 }
 .blog-image{
     border-style: solid;
@@ -99,7 +97,7 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
     font-family:monospace;
-    font-size: x-large;
+    font-size: 25px;
 }
 .div-for-title h5{
     font-family:monospace;
@@ -127,7 +125,6 @@ body{
 }
 .div-for-avatar{
     float: left;
-    text-align: center;
 }
 .div-for-avatar:hover{
     opacity: 0.8;
@@ -137,6 +134,7 @@ body{
     padding: 2%;
     margin: auto;
     padding-left: 20px;
+
 }
 .div-for-auth-det h5,h6{
     font-family:monospace;
