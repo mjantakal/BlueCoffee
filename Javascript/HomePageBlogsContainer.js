@@ -29,7 +29,7 @@ for (var i = 0; i < noOfRows; i++) {
         divForCol.appendChild(aTagForBlog);
 
         var aTagForTitleDiv = document.createElement('a');
-        aTagForTitleDiv.setAttribute('href', 'https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_w3schools');
+        aTagForTitleDiv.setAttribute('href', '../Html/blog.html');
 
         var divForTitle = document.createElement('div');
         divForTitle.className = "div-for-title";
@@ -54,7 +54,7 @@ for (var i = 0; i < noOfRows; i++) {
         avatarDiv.className = "div-for-avatar";
 
         var ancForAvatar = document.createElement('a');
-        ancForAvatar.setAttribute('href','https://bootsnipp.com/snippets/z81qK');
+        ancForAvatar.setAttribute('href','../Html/blog.html');
 
         var imgForAvatar = document.createElement('img');
         imgForAvatar.className="authorImg";

@@ -27,6 +27,7 @@
     color: gray;
     margin-top: 5px;
     margin-bottom: 15px;
+    font-size: large;
 }
 .article-details{
     width: 60%;
@@ -37,7 +38,16 @@
     display: flex;
 
 }
+
+.img-source{
+    margin-top: 10%;
+}
 .img-source img{
     width: 100%;
     height: 100%;
+}
+.blog-display-field{
+    margin-top: 20px;
+    font-family: 'Rancho', cursive;
+
 }

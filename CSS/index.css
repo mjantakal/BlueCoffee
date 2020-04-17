@@ -11,7 +11,7 @@ body{
     color: red;
 }
 .header{
-    width: 60%;
+    width: 50%;
     margin: auto;
     height: 50px;
 
@@ -47,21 +47,20 @@ body{
   }
 
 .banner{
-    height: 400px;
+    height: 50vh;
     width: 70%;
     margin: auto;
     margin-top: 10px;
     background-image: url("../Images/wallpaper.jpg");
-    /* background-color: burlywood; */
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 200px;
     font-family:monospace;
     color: aliceblue;
-    
-
 }
 .signin-tab{
-    width: 80%;
+    width: 60%;
     margin: auto;
     padding-top:40px ;
     padding-bottom: 20px;
@@ -71,7 +70,7 @@ body{
 
 }
 #container{
-    width: 80%;
+    width: 60%;
     margin: auto;
 
 }
